@@ -1,5 +1,5 @@
 
-public class Main {
+public class uri1000 {
 
 	public static void main(String[] args) {
 		
