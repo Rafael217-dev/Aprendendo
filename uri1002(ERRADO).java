@@ -4,7 +4,8 @@ import java.util.Scanner;//Importando a classe scanner do pacote java.util do Ja
 public class Main {
 
 	public static void main(String[] args) {
-		
+		//Essa foi a forma que eu encontrei para resolver o problema, mas o URI julgou errado kkkkkkk faz parte
+		//O resultado foi o mesmo, mas teve algumas coisas desnecessárias, irei postar o modo correto para comparação.
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);//Criando a classe scanner para entrada de dados.
 		
