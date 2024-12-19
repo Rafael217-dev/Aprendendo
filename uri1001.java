@@ -1,6 +1,6 @@
 import java.util.Scanner;//Importando a classe scanner do pacote java.util do Java para que ela funcione.
 
-public class Main {
+public class uri1001 {
 
 	public static void main(String[] args) {
 		
