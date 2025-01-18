@@ -28,7 +28,7 @@ public class Main {
 			System.out.println("Aluno aprovado.");
 		}
 		
-		else if (media >= 5.0 || media <= 6.9) {
+		else if (media >= 5.0 && media <= 6.9) {
 			System.out.println("Aluno em exame.");
 			nota_exame = sc.nextDouble();
 			
