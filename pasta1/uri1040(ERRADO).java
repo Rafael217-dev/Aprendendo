@@ -7,13 +7,15 @@ public class Main {
 		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		
+		/*De certo modo em um mundo ideal, essa forma de resolver o problema que eu encontrei estaria correto, afinal, o double oferece mais precisão
+  		e confiabilidade, porém, em contrapartida, deixa o código mais pesado, por ser 64bits, enquanto float é apenas 32bits. A única coisa que esse
+    		código diferiu do outro, foi a diferença de precisão, onde o double arrendodava para 4.9 e o float arredondava para 4.8. O problema pedia
+      		que o resultado desse 4.8, então eu olhei a maneira que professor fez e fui entendendo aos poucos. Mas fique de aprendizado.*/
 		double n1, n2, n3, n4, media, a, b, c, d, nota_exame, media_final;
 		
-		n1 = 2.0;
-		n2 = 3.0;
+		n1 = 2.0;		
 		n3 = 4.0;
-		n4 = 1.0;
+		n4 = 1.0;				
 		
 		a = sc.nextDouble();
 		b = sc.nextDouble();
